@@ -71,6 +71,8 @@ main{
 
 }
 
+
+
 ul{
     list-style-type: none;
    padding: 1em;
@@ -84,21 +86,26 @@ h3{
 
 .check{
     color: rgb(24, 213, 24);
-    text-align: center;
-    line-height: center;
-    border-radius: 100%;
-    border-color: green;
-    border-style: solid;
+    width: 20px;
+    height: 20px;
     display: inline-block;
+    text-align: center;
+    line-height: 20px;
+    border-radius: 100%;
+    border-color: rgb(24, 213, 24);;
+    border-style: solid;
 }
 
 .cross{
     color:red;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
     text-align: center;
-    line-height: center;
+    line-height: 20px;
     border-radius: 100%;
     border-color: red;
-    display: inline-block;
+  
     border-style: solid;
 }
 .tag-blue{
